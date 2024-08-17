@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Weather App</title>
+</head>
+
+<body>
+  <main class="container mx-auto p-4">
+    <h1 class="text-3xl text-center font-bold text-blue-500 uppercase">Weather App</h1>
+    <div id="weatherform" class="w-full flex justify-center gap-3 mt-5">
+      <input type="text" id="address" class="border border-black p-2 rounded-3xl" placeholder="Enter Address" autocomplete="off">
+      <button id="btn" class="hover:border p-2 bg-black hover:bg-blue-500 text-white font-bold rounded-3xl p-2">Get
+        Weather</button>
+    </div>
+
+    <div id="weather" class="w-full flex  flex-col justify-center mt-5">
+      <div class="w-full p-3" id="weatherdata">
+
+      </div>
+    </div>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
